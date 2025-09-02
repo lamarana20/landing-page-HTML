@@ -192,7 +192,19 @@
       border-radius: 4px;
       z-index: 10;
   }
+.badges-row {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  gap: 15px;               
+  flex-wrap: wrap;        
+  margin-top: 20px;
+}
 
+.badges-row img {
+  width: auto;             
+  object-fit: contain;
+}
   button#prev {
       left: 10px;
   }
